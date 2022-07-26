@@ -1,0 +1,19 @@
+project-path = "./go-starter-example"
+module-name = "github.com/wzzfarewell/go-starter-example"
+
+[db]
+db-name = "merak_example"
+host = "localhost"
+password = "farewell"
+port = 3306
+user = "root"
+
+[[tables]]
+name = "t_user"
+struct-name = "User"
+package-name = "user"
+
+[[tables]]
+name = "t_user_info"
+struct-name = "UserInfo"
+package-name = "user"

@@ -1,0 +1,9 @@
+# This is a TOML config file.
+
+[db]
+db-name = "merak_example"
+host = "localhost"
+port = 3306
+user = "root"
+password = "farewell"
+
